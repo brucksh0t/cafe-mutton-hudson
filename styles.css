@@ -12,7 +12,8 @@ a{color:inherit}
 .nav{position:sticky;top:0;z-index:30;background:var(--ink);color:var(--cream)}
 .nav__in{display:flex;align-items:center;gap:1rem;padding:.45rem 4vw;min-height:60px}
 .brand{display:inline-flex;align-items:center;gap:.55rem;min-height:44px;min-width:44px;text-decoration:none;font-family:var(--disp);font-weight:800;font-size:1.35rem;white-space:nowrap}
-.brand__logo{height:28px;width:auto;flex:none}
+.brand__logo{height:31px;width:auto;flex:none}
+@media (min-width:900px){.brand__logo{height:42px}}
 .brand__text{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .nav__links{display:flex;gap:1.2rem;margin-left:auto;font-weight:600;font-size:1rem}
 .nav__links a,.strip a{text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
