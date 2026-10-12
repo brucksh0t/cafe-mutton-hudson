@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cafe Mutton · 757 Columbia St, Hudson, NY</title>
+<meta name="description" content="A small neighborhood restaurant on a sunny corner in Hudson, NY. Dinner Wed–Fri 5–9, brunch Sat–Sun 10–3. Menus change weekly. (518) 671-6230.">
+<meta name="theme-color" content="#1c2440">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p class="flag" role="note">Concept preview · not affiliated with Cafe Mutton</p>
+
+<header class="nav" id="top">
+  <div class="nav__in">
+    <a class="brand" href="#top" aria-label="Cafe Mutton, back to top"><img src="img/favicon.png" alt="" width="32" height="32"><span>Cafe Mutton</span></a>
+    <nav class="nav__links" aria-label="Main"><a href="#today">Today</a><a href="#menus">Menus</a><a href="#specials">Specials</a><a href="#about">About</a><a href="#visit">Visit</a></nav>
+    <a class="btn btn--primary btn--hdr" href="https://resy.com/cities/hudson-ny/venues/cafe-mutton" target="_blank" rel="noopener">BOOK FRIDAY</a>
+  </div>
+  <nav class="strip" aria-label="Sections"><a href="#today">Today</a><a href="#menus">Menus</a><a href="#specials">Specials</a><a href="#about">About</a><a href="#visit">Visit</a></nav>
+</header>
+
+<main>
+<section class="hero" id="today" aria-labelledby="hero-h">
+  <div class="hero__in">
+    <div class="hero__copy">
+      <p class="kicker">757 Columbia Street · Hudson, NY</p>
+      <h1 id="hero-h">Simple food, very close attention.</h1>
+      <ul class="today">
+        <li class="today__row" data-status><span class="dot dot--later" aria-hidden="true"></span><span><b>Today</b> <span data-text>Dinner Wed–Fri 5–9 PM · Brunch Sat–Sun 10 AM–3 PM · Closed Mon–Tue</span></span></li>
+        <li class="today__row"><span class="dot dot--plain" aria-hidden="true"></span><span><b>Tables</b> Reservations for Friday dinner only. Other services: no reservations, just come by.</span></li>
+      </ul>
+      <div class="btns"><a class="btn btn--outline btn--lg" href="#menus">SEE MENUS</a><a class="btn btn--outline btn--lg" href="tel:+15186716230">CALL</a></div>
+    </div>
+    <div class="hero__media"><picture><source type="image/webp" srcset="img/fish-pie-800.webp 800w, img/fish-pie-1500.webp 1500w" sizes="(min-width:900px) 600px, 92vw"><img class="hero__img" src="img/fish-pie.jpg" alt="A baked pie with a piped, browned potato top in a white oval dish on a blue table." width="1500" height="1125" fetchpriority="high" decoding="async"></picture></div>
+  </div>
+</section>
+
+<section class="menus" id="menus" aria-labelledby="mn-h">
+  <div class="wrap">
+    <p class="kicker kicker--dark">Dinner changes every Friday · brunch changes with the seasons</p>
+    <h2 id="mn-h" class="disp">This week’s menus</h2>
+    <div class="tabs" role="tablist" aria-label="Menus">
+      <button class="tab" role="tab" id="t-din" aria-controls="p-din" aria-selected="true">DINNER 10.09</button>
+      <button class="tab" role="tab" id="t-br" aria-controls="p-br" aria-selected="false" tabindex="-1">BRUNCH 10.11</button>
+      <span class="tabs__bar" aria-hidden="true"></span>
+    </div>
+    <div class="panel" role="tabpanel" id="p-din" aria-labelledby="t-din">
+      <div class="cols">
+        <ul class="menu"><li><span>Dressed hakurei turnips</span><b>7</b></li><li><span>Honeycrisp apples with tomme de Savoie</span><b>12</b></li><li><span>Head cheese with white anchovies</span><b>15</b></li><li><span>Oeuf mayonnaise</span><b>6</b></li><li><span>Bread and butter</span><b>6</b></li><li><span>Duck rillettes with plum–husk cherry jam and mustard</span><b>18</b></li><li><span>Country pâté with baguette, mustard, and cornichons</span><b>17</b></li><li><span>Polenta with chicken gizzard ragù and pecorino</span><b>24</b></li><li><span>Tripoline with mushroom and chicken liver ragù</span><b>25</b></li><li><span>Frisée salad with beets, aged gouda, and sherry vinaigrette</span><b>16</b></li></ul>
+        <ul class="menu"><li><span>Smoked whitefish pie</span><b>32</b></li><li><span>Pan-fried skate with tomato salad</span><b>30</b></li><li><span>Stuffed duck neck with potato purée and roasted fennel</span><b>40</b></li><li><span>Crispy trotters with kasha, cabbage, and mustard</span><b>35</b></li><li class="menu__h">Dessert</li><li><span>Cream puffs with butterscotch</span><b>13</b></li><li><span>Pumpkin cake with roasted apples and cardamom custard</span><b>15</b></li><li><span>Aged cheddar with toast and honey</span><b>18</b></li></ul>
+      </div>
+    </div>
+    <div class="panel" role="tabpanel" id="p-br" aria-labelledby="t-br" hidden>
+      <div class="cols">
+        <ul class="menu"><li><span>Crêpes with butter and maple</span><b>15</b></li><li><span>Smoked eggplant and jimmy nardello pepper omelet, buttered toast</span><b>22</b></li><li><span>Pork sausage with potatoes, eggs, and hollandaise</span><b>25</b></li><li><span>Chicken and poblano soup with sour cream</span><b>15</b></li><li><span>Skate terrine with cucumbers, hard-boiled egg, and aïoli</span><b>25</b></li><li><span>Polenta with chicken gizzard ragù</span><b>29</b></li><li><span>Chicory salad with fennel, apples, sherry vinaigrette, and Montealva</span><b>17</b></li><li><span>Tiny green salad</span><b>5</b></li><li><span>Country pâté sandwich with mustard and cornichons</span><b>17</b></li><li><span>Fried bologna sandwich</span><b>13</b></li></ul>
+        <ul class="menu"><li class="menu__h">Dessert</li><li><span>Cream puffs with butterscotch</span><b>13</b></li><li><span>Pumpkin cake with roasted apples and cardamom custard</span><b>15</b></li><li><span>Roquefort with toast and honey</span><b>18</b></li><li><span>Shortbread</span><b>5</b></li><li class="menu__h">Soft drinks</li><li><span>Coffee</span><b>5</b></li><li><span>Iced coffee · iced tea</span><b>5</b></li><li><span>Tea</span><b>4</b></li><li><span>Pot of tea</span><b>8</b></li><li><span>Sparkling water</span><b>3/6</b></li><li><span>House soda</span><b>5</b></li></ul>
+      </div>
+    </div>
+    <p class="note">Transcribed from the menus posted on cafemutton.com, checked Oct 12, 2026. Menus change often; next Friday’s dinner will differ. All checks include an extra 2% to support mutual aid in the Hudson community; the brunch menu notes a 2.5% discount for cash. Call to confirm: <a href="tel:+15186716230">(518) 671-6230</a>.</p>
+    <div class="btns"><a class="btn btn--outline" href="https://www.cafemutton.com/menus/" target="_blank" rel="noopener">MENU PDFS</a><a class="btn btn--outline" href="https://www.cafemutton.com/online-ordering/" target="_blank" rel="noopener">ORDER PICKUP</a></div>
+  </div>
+</section>
+
+<section class="specials" id="specials" aria-labelledby="sp-h">
+  <div class="wrap sp__in">
+    <div>
+      <p class="kicker">Off the board</p>
+      <h2 id="sp-h" class="disp disp--light">Specials</h2>
+      <h3 class="sub">Sunday 10/11</h3>
+      <ul class="menu menu--light"><li><span>Duck offal toast</span><b>20</b></li><li><span>Fish pie</span><b>32</b></li><li><span>Crispy trotters with kasha and cabbage</span><b>30</b></li><li><span>Tripoline with mushrooms and chicken liver sauce</span><b>25</b></li><li><span>Headcheese baguette with pimentón aïoli, piparras, and olives</span><b>20</b></li></ul>
+      <h3 class="sub">Friday 10/09</h3>
+      <ul class="menu menu--light"><li><span>Chicken and poblano terrine</span><b>15</b></li><li><span>Duck breast with potato purée and prunes</span><b>call</b></li></ul>
+      <p class="note note--light">Specials as posted on cafemutton.com/menus, checked Oct 12, 2026. They run out and change. Call to confirm: <a href="tel:+15186716230">(518) 671-6230</a>.</p>
+    </div>
+    <div class="sp__media"><picture><source type="image/webp" srcset="img/skate-800.webp 800w, img/skate-1500.webp 1500w" sizes="(min-width:900px) 560px, 92vw"><img class="framed" src="img/skate.jpg" alt="A whole fried fish with a lemon wedge on a rose-patterned plate." width="1500" height="1074" loading="lazy" decoding="async"></picture></div>
+  </div>
+</section>
+
+<section class="about" id="about" aria-labelledby="ab-h">
+  <div class="wrap ab__in">
+    <div class="ab__media"><picture><source type="image/webp" srcset="img/toast-plate-800.webp 800w, img/toast-plate-1500.webp 1500w" sizes="(min-width:900px) 520px, 92vw"><img class="framed framed--dark" src="img/toast-plate.jpg" alt="Toast, sliced meat, and dressed greens on a floral plate." width="1500" height="1125" loading="lazy" decoding="async"></picture></div>
+    <div>
+      <h2 id="ab-h" class="disp">A small neighborhood restaurant</h2>
+      <blockquote><p>“Our food is simple, but we pay it very close attention, and we really like meat. We also like vegetables (so much).”</p></blockquote>
+      <p>Cafe Mutton sits on a sunny corner of Columbia Street. Chef and owner Shaina Loew-Banayan writes a new dinner menu every Friday. Eloiser is general manager (and, per the restaurant, security guard).</p>
+      <p class="note">Quoted from cafemutton.com home and about pages, checked Oct 12, 2026.</p>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit" aria-labelledby="vi-h">
+  <div class="wrap vis">
+    <div>
+      <h2 id="vi-h" class="disp disp--light">Visit</h2>
+      <address>Cafe Mutton<br>757 Columbia Street<br>Hudson, NY 12534</address>
+      <p class="big"><a href="tel:+15186716230">(518) 671-6230</a></p>
+      <table class="hours" data-hours><caption class="sr">Hours</caption><tbody>
+        <tr data-day="1"><th scope="row">Monday</th><td>Closed</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>Closed</td></tr>
+        <tr data-day="3"><th scope="row">Wednesday</th><td>Dinner 5–9 PM</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>Dinner 5–9 PM</td></tr>
+        <tr data-day="5"><th scope="row">Friday</th><td>Dinner 5–9 PM · reservations</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>Brunch 10 AM–3 PM</td></tr>
+        <tr data-day="0"><th scope="row">Sunday</th><td>Brunch 10 AM–3 PM</td></tr></tbody></table>
+      <p class="note note--light">Hours as posted on cafemutton.com/location/cafe-mutton, checked Oct 12, 2026. Holiday hours aren’t posted. Call to confirm.</p>
+      <div class="btns"><a class="btn btn--outline-light" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cafe%20Mutton%2C%20757%20Columbia%20St%2C%20Hudson%2C%20NY%2012534" target="_blank" rel="noopener">DIRECTIONS</a></div>
+    </div>
+    <div class="vis__media"><picture><source type="image/webp" srcset="img/storefront-800.webp 800w, img/storefront-1440.webp 1440w" sizes="(min-width:900px) 560px, 92vw"><img class="framed" src="img/storefront.jpg" alt="People lined up outside Cafe Mutton’s corner storefront on Columbia Street." width="1440" height="1440" loading="lazy" decoding="async"></picture></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p><a href="https://www.instagram.com/cafemutton/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/Cafemutton" target="_blank" rel="noopener">Facebook</a><a href="https://www.cafemutton.com/" target="_blank" rel="noopener">Current site</a></p>
+  <p>Concept preview · not affiliated with Cafe Mutton. Photos and menus from cafemutton.com.</p>
+</footer>
+
+<div class="mbar" role="navigation" aria-label="Quick actions">
+  <a class="btn btn--outline-light" href="tel:+15186716230">CALL</a>
+  <a class="btn btn--outline-light" href="#menus">MENUS</a>
+  <a class="btn btn--primary" href="https://resy.com/cities/hudson-ny/venues/cafe-mutton" target="_blank" rel="noopener">BOOK FRIDAY</a>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
