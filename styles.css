@@ -72,7 +72,7 @@ address{font-style:normal;font-size:1.2rem}
 .big{font-size:1.2rem;font-weight:600;margin:.8rem 0 1.2rem}.big a{display:inline-flex;min-height:44px;align-items:center}
 .hours{width:100%;max-width:30rem;border-collapse:collapse}
 .hours th,.hours td{text-align:left;padding:.45rem .3rem;border-bottom:1px solid #4a5478;font-size:1rem}
-.hours th{font-family:var(--disp);font-weight:800}
+.hours th{font-family:var(--disp);font-weight:800;white-space:nowrap}
 .hours tr.is-today{background:#36406a}.hours tr.is-today th::after{content:" · today";color:var(--gold)}
 .foot{background:#11172b;color:#ddd6c6;padding:2.5rem 5vw;text-align:center;font-size:1rem;display:grid;gap:.3rem}
 .foot p:first-child{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap}
