@@ -12,7 +12,7 @@ All photos come from cafemutton.com, downloaded Oct 12, 2026. They're the restau
 
 | Local | Shows | Source URL |
 |---|---|---|
-| img/fish-pie.* | Potato-topped pie in an oval dish | https://images.getbento.com/accounts/73acb1a7f2b789c638a97123748221bc/media/images/71867IMG_4798.jpeg |
+| img/fish-pie.* | Potato-topped pie in an oval dish (upright/portrait via EXIF transpose; source orientation 6) | https://images.getbento.com/accounts/73acb1a7f2b789c638a97123748221bc/media/images/71867IMG_4798.jpeg |
 | img/skate.* | Whole fried fish with lemon | https://images.getbento.com/accounts/73acb1a7f2b789c638a97123748221bc/media/images/58873tempImagenhOOu6_copy.jpg |
 | img/toast-plate.* | Toast, sliced meat, and greens | https://images.getbento.com/accounts/73acb1a7f2b789c638a97123748221bc/media/images/25819tempImage2y4XtE.jpg |
 | img/storefront.* (native 1440, so the large WebP is 1440w) | Line outside the Columbia St storefront | https://images.getbento.com/accounts/73acb1a7f2b789c638a97123748221bc/media/images/16154cafe_mutton_8.jpeg |
@@ -25,10 +25,10 @@ Restaurant's own mark, downloaded Oct 12, 2026 from cafemutton.com and self-host
 
 ## Facts (all retrieved Oct 12, 2026)
 - Address, phone, and hours (Wed–Fri 5–9pm, Sat–Sun 10am–3pm, Mon–Tue closed): https://www.cafemutton.com/location/cafe-mutton/
-- Reservations for Friday dinner only, the welcome quote, pickup ordering: https://www.cafemutton.com/
+- Welcome quote, pickup ordering: https://www.cafemutton.com/. Reservations: Resy venue page "Need to Know" (Wed–Fri dinner; brunch walk-in), checked Oct 12, 2026; cafemutton.com home still says Friday only — confirm with owner.
 - Dinner 10.09, brunch 10.11, and the specials: https://www.cafemutton.com/menus/ and the PDFs it links. The 2% mutual-aid charge and the 2.5% cash discount are printed on the menus. Visible notes paraphrase those facts; full provenance stays here.
 - Chef/owner Shaina Loew-Banayan and GM Eloiser: https://www.cafemutton.com/about/
-- Booking link: the restaurant's reservation venue page (resy.com/cities/hudson-ny/venues/cafe-mutton), matching the venue its "Book for Friday" control opens.
+- Booking link: the restaurant's reservation venue page (resy.com/cities/hudson-ny/venues/cafe-mutton), matching the venue its "Book Dinner" control opens.
 
 ## Marked "call to confirm"
 Holiday hours, specials availability, next week's menu, and the price of the 10/09 duck breast special (none was posted).

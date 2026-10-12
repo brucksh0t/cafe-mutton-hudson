@@ -11,7 +11,7 @@
     return {day:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday),min:(+p.hour%24)*60+ +p.minute};}
   function next(d){for(var i=1;i<=7;i++){var k=(d+i)%7;if(H[k])return {k:k,i:i};}}
   function compute(n){var h=H[n.day];
-    if(h&&n.min>=h[0]&&n.min<h[1])return {c:'open',t:h[2]+' is on now, until '+t(h[1])+'.'+(n.day===5?' Friday dinner takes reservations.':'')};
+    if(h&&n.min>=h[0]&&n.min<h[1])return {c:'open',t:h[2]+' is on now, until '+t(h[1])+'.'+(n.day>=3&&n.day<=5?' Dinner takes reservations.':'')};
     if(h&&n.min<h[0])return {c:'later',t:'Opens today at '+t(h[0])+' for '+h[2].toLowerCase()+', until '+t(h[1])+'.'};
     var x=next(n.day),hh=H[x.k];return {c:'closed',t:'Closed now. Next: '+(x.i===1?'tomorrow, ':'')+N[x.k]+' '+hh[2].toLowerCase()+' at '+t(hh[0])+'.'};}
   var n=now(),r=compute(n),row=document.querySelector('[data-status]');
