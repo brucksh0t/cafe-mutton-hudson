@@ -16,7 +16,7 @@
     var x=next(n.day),hh=H[x.k];return {c:'closed',t:'Closed now. Next: '+(x.i===1?'tomorrow, ':'')+N[x.k]+' '+hh[2].toLowerCase()+' at '+t(hh[0])+'.'};}
   var n=now(),r=compute(n),row=document.querySelector('[data-status]');
   if(row){row.querySelector('.dot').className='dot dot--'+r.c;row.querySelector('[data-text]').innerHTML=r.t+' Holiday hours aren’t posted. Call to confirm: <a href="tel:+15186716230">(518) 671-6230</a>';}
-  var tr=document.querySelector('[data-hours] tr[data-day="'+n.day+'"]');if(tr)tr.classList.add('today');
+  var tr=document.querySelector('[data-hours] tr[data-day="'+n.day+'"]');if(tr)tr.classList.add('is-today');
   // Signature: menu tabs with a sliding underline (motion off under reduced-motion via CSS)
   var tabs=[].slice.call(document.querySelectorAll('.tab')),bar=document.querySelector('.tabs__bar');
   function place(b){if(bar){bar.style.width=b.offsetWidth+'px';bar.style.transform='translateX('+b.offsetLeft+'px)';}}
